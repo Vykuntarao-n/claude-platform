@@ -4,7 +4,7 @@ import Anthropic from "@anthropic-ai/sdk";
 // ANTHROPIC_API_KEY, ANTHROPIC_AUTH_TOKEN, or an `ant auth login` profile.
 export const anthropic = new Anthropic();
 
-export const CHAT_MODEL = "claude-opus-5";
+export const CHAT_MODEL = "claude-haiku-4-5";
 
 export const SUPPORT_SYSTEM_PROMPT = `You are the support assistant for the Claude Platform product.
 You help users troubleshoot issues, answer questions about features, pricing, and setup, and
